@@ -1,0 +1,11 @@
+#Approach1
+myList = [43, 56, 54, 34, 9]
+print("myList before clearing: ", myList)
+myList.clear()
+print("myList before clearing: ", myList)
+
+#Approach2
+myList = [43, 56, 54, 34, 9]
+print("myList before clearing: ", myList)
+myList = []
+print("myList before clearing: ", myList)
