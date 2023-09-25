@@ -1,0 +1,22 @@
+#Approach1: Using loop
+
+myList = [54, 75, 34, 22, 28]
+ele = 75
+flag = 0
+for i in myList:
+    if(i == ele):
+        flag = 1
+
+if(flag == 1):
+    print("Element found")
+else:
+    print("Element not found")
+
+#Approach2: Using in operator
+
+myList = [54, 75, 34, 22, 28]
+ele = 75
+if(ele in myList):
+    print("Element found")
+else:
+    print("Element not found")
