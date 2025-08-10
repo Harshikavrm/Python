@@ -18,4 +18,3 @@ while True:
             break
     except ValueError:
         print("Input the correct number.")
-#It keeps going until the user guesses correctly(and often tracks how many attempts they took)
